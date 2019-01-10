@@ -30,6 +30,7 @@ export default {
 		},
 		generateResult: function() {
 			this.result = this.text.replace(/(.)(?=.)/g, "$1" + this.separator)
+			alert(this.result)
 		}
   }
 };
